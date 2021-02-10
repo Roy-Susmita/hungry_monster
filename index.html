@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hungry monster</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-center mt-5">
+            <h2> SEARCH YOUR MEALS </h2>
+            <form class="col-md-6 m-auto py-5">
+                <div class="input-group mb-3">
+                    <input type="text" id="searchInput" class="form-control" placeholder="Enter your meal">
+                    <div>
+                        <button onclick="searchMeal()" type="button" class="btn btn-danger"
+                            id="search-btn">Search</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <h4 id="invalidSearch" class="text-danger"></h4>
+        <div id="mealItem">
+
+        </div>
+        <div id="mealContainer">
+
+        </div>
+
+        <div id="ingredientsDetail">
+
+        </div>
+    </div>
+    <script src="app.js"> </script>
+</body>
+
+</html>

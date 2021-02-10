@@ -1,0 +1,21 @@
+.meal-card {
+    cursor: pointer;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid grey;
+    border-radius: 15px; 
+}
+img {
+  width: 100%;
+  padding: 5px;
+}
+ .card-body h5 {
+    color: black;
+  }
+  #mealContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 20px;
+  }
+  
